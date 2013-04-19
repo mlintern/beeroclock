@@ -99,6 +99,10 @@ body:before {
   margin-top: -280px;
 }
 
+#drink-type {
+	overflow: hidden;
+}
+
 .tasty-beverage {
 	-webkit-transition: height 2.5s ease-in-out;
        -moz-transition: height 2.5s ease-in-out;
@@ -442,7 +446,7 @@ body:before {
   position: absolute;
   bottom: 0;
   width: 100%;
-  max-height: 100%;
+  max-height: 486px;
 }
 
 .beer-bottle .beverage-head {
@@ -534,7 +538,7 @@ body:before {
 }
 
 .drink-ale .beverage-head {
-  height: 15%;
+  height: 5%;
   background: #f3ebe1;
 }
 
