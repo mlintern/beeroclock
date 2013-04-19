@@ -292,11 +292,7 @@ $(document).ready(function() {
 
         var beeroclock_date = this.getDate(),
             now = this.canHaz() ? beeroclock_date : new Date,
-<<<<<<< HEAD
-            hours_diff = Math.abs(beeroclock_date.getHours() - now.getHours() - 1),
-=======
             hours_diff = Math.abs((beeroclock_date.getHours() - now.getHours()) - 1),
->>>>>>> Count Down Time from Forked Source
             minutes_diff = Math.abs(60 - now.getMinutes()),
             seconds_diff = Math.abs(60 - now.getSeconds());
  
