@@ -215,8 +215,7 @@ body:before {
 
 .site-footer,
 .site-footer a {
-  color: #ccc;
-  color: rgba(255,255,255,0.25);
+  color: #fff;
   
   -webkit-transition: color 0.2s ease-in-out;
      -moz-transition: color 0.2s ease-in-out;
@@ -227,17 +226,6 @@ body:before {
 
 .site-footer a {
   font-weight: bold;
-}
-
-.site-footer:hover,
-.site-footer:hover a {
-  color: #fff;
-  
-  -webkit-transition: color 0.2s ease-in-out;
-     -moz-transition: color 0.2s ease-in-out;
-      -ms-transition: color 0.2s ease-in-out;
-       -o-transition: color 0.2s ease-in-out;
-          transition: color 0.2s ease-in-out;
 }
 
 .site-footer a:hover {
@@ -320,14 +308,14 @@ body:before {
 	width: auto;
 }
 
-.hour-options:after {
-	float: left;
-	content: " :";
-	margin: 5px;
-	color: #fff;
-	font-size: 16px;
-	font-weight: bold;
-}
+// .hour-options:after {
+// 	float: left;
+// 	content: " :";
+// 	margin: 5px;
+// 	color: #fff;
+// 	font-size: 16px;
+// 	font-weight: bold;
+// }
 
 .settings-cancel {
   color: #fff;
@@ -395,6 +383,7 @@ body:before {
   bottom: 0;
   width: 100%;
   max-height: 495px;
+  left: 1px;
   
   -webkit-border-radius: 149px / 20px;
      -moz-border-radius: 149px / 20px;
