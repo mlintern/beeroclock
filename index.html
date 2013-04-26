@@ -17,35 +17,16 @@
 
 	<!-- Load all the JavaScripts! -->
 	<script>
-		// GoSquared Config
-		var GoSquared = {acct: "GSN-740835-C"};
-
-		// GA Config
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-38568189-1']);
-		_gaq.push(['_trackPageview']);
-
 		// Start Async script loading
 		$LAB
 
 		// jQuery
 		.script(function() {
-			return typeof IE == 'undefined' ? "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" : "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js";
+			return typeof IE == 'undefined' ? "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" : "http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js";
 		})
 		
 		// Main
 		.wait().script("js/main.js?9")
-
-		// Typekit
-		.script("//use.typekit.net/kdh0ouh.js").wait(function() {
-			try{Typekit.load();}catch(e){}
-		})
-
-		// GoSquared
-		.script("//d1l6p2sc9645hc.cloudfront.net/tracker.js")
-		
-		// Google Analytics
-		.script("http://www.google-analytics.com/ga.js")
 	</script>
 
 	<!-- Selectivizr for IE 6+7+8 -->
@@ -63,21 +44,6 @@
 	<meta name="description" content="A handy tool to answer the most important question of the day... How long until Beer O'Clock?" />
 	<title>Beer O'clock</title>
 	
-	<!-- OpenGraph -->
-	<meta property="og:title" content="Beer O'clock" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://beeroclock.in/img/og-logo.jpg" />
-	<meta property="og:url" content="http://beeroclock.in/" />
-	<meta property="og:site_name" content="Beer O'clock" />
-	<meta property="og:description" content="A handy tool to answer the most important question of the day... How long until Beer O'Clock?" />
-	<meta property="fb:admins" content="899385393" />
-	<meta property="fb:admins" content="686933245" />
-	
-	<!-- Google+ -->
-	<meta itemprop="name" content="Beer O'clock">
-	<meta itemprop="description" content="A handy tool to answer the most important question of the day... How long until Beer O'Clock?">
-	<meta itemprop="image" content="http://beeroclock.in/img/og-logo.jpg">
-	
 	<!-- Bookmark Icons -->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -94,14 +60,8 @@
 				<h1>Beer<br/>O'clock</h1>
 				<p>How long until the most important time of day?</p>
 				<div class="social-sharing">
-					<div class="share-button facebook-share">
-						<div class="fb-like" data-href="http://beeroclock.in" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
-					</div>
 					<div class="share-button twitter-share">
-						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://beeroclock.in" data-text="How long is it until Beer O'clock?" data-related="benhodgson,jamesrwhite" data-hashtags="beeroclock">Tweet</a>
-					</div>
-					<div class="share-button google-share">
-						<div class="g-plusone" data-size="medium"></div>
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://beer.nretnil.com" data-text="How long is it until Beer O'clock?" data-related="benhodgson,jamesrwhite" data-hashtags="beeroclock">Tweet</a>
 					</div>
 				</div>
 			</header>
@@ -157,7 +117,6 @@
 			<a href="javascript:void(0);" class="site-customise bubble-toggle" title="Toggle Bubble Animation - You may want to disable bubbles on slow computers, or if your laptop fans start to sound like a fighter jet.">Turn Bubbles Off</a>
 			<a href="javascript:void(0);" class="site-customise settings-toggle" title="Pour your own pint!">Customise</a>
 		</div>
-		<small class="site-credits">Brewed by <a href="http://jamesrwhite.co.uk">James White</a> &amp; <a href="http://benhodgson.net">Ben Hodgson</a></small>
 	</footer>
 	
 	<section class="settings-panel">
@@ -255,14 +214,10 @@
 		</form>
 	</section>
 	
-	<a class="github-banner" href="https://github.com/jamesrwhite/beeroclock">
-		<img src="img/forkme.png" alt="Fork me on GitHub">
-	</a>
-	
 	<div id="fb-root"></div>
 
 	<!-- jQuery -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<!--[if lt IE 8]>
 	<!-- Typekit -->
 	
